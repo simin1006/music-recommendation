@@ -8,7 +8,7 @@ st.set_page_config(page_title="Music Recommendation System", page_icon="🎵")
 st.title("🎵 Music Recommendation System")
 
 # Load dataset
-df = pd.read_csv("cleaned data.csv")
+df = pd.read_csv("cleaned_data.csv")
 
 # Features
 features = [
